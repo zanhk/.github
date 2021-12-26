@@ -1,0 +1,38 @@
+name: "\U0001F41B Bug Report"
+description: Report an issue or possible bug
+title: "\U0001F41B [BUG]:"
+labels: []
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ##  Quick Checklist
+        Thank you for taking the time to file a bug report! Please fill out this form as completely as possible.
+
+        ✅ I am using the latest version (including all plugins).
+  - type: input
+    attributes:
+      label: What version are you using?
+      placeholder: 0.0.0
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: What operating system are you using?
+      placeholder: Mac, Windows, Linux
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Describe the Bug
+      description: A clear and concise description of what the bug is.
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Link to Minimal Reproducible Example
+      description: 'Insert a link to a minimal reproducible example of the bug. This is helpful to show the steps to reproduce the bug.'
+      placeholder: 'https://stackblitz.com/abcd1234'
+    validations:
+      required: false
