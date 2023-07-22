@@ -1,8 +1,8 @@
 blank_issues_enabled: true
 contact_links:
-    - name: 🕮 Discussion and documentation
-      url: https://zank.it
-      about: "For discussion use the discussion tab, for documentation use the wiki tab"
+    - name: 🕮 Documentation
+      url: https://docs.github.com/en/communities/documenting-your-project-with-wikis/adding-or-editing-wiki-pages
+      about: "For documentation use the wiki tab"
     - name: 🌍 About
       url: https://zank.it
       about: "About the creator of this repository"
